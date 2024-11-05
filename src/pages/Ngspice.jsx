@@ -98,7 +98,12 @@ const Ngspice = () => {
         onChange={(e) => setNgspiceCode(e.target.value)}
       />
       <Button type="submit">Submit Code</Button>
-      {output && <p>{output}</p>}
+      {output && (
+        <>
+          <h1>Output</h1>
+          <p>{output}</p>
+        </>
+      )}
     </FormContainer>
   );
 };

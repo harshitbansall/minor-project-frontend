@@ -184,18 +184,18 @@ const sidebarData = [
       },
     ],
   },
-  {
-    name: "Support",
-    isNavigate: "/support",
-    startDecorator: (
-      <HeadsetMicOutlinedIcon
-        style={{
-          pointerEvents: "none",
-          margin: "0 -2px 0 -2px",
-        }}
-      />
-    ),
-  },
+//   {
+//     name: "Support",
+//     isNavigate: "/support",
+//     startDecorator: (
+//       <HeadsetMicOutlinedIcon
+//         style={{
+//           pointerEvents: "none",
+//           margin: "0 -2px 0 -2px",
+//         }}
+//       />
+//     ),
+//   },
 ];
 
 ///////////////////////////////////////////////////////////////////////////////////
