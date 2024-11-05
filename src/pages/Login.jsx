@@ -46,7 +46,7 @@ const LoginForm = styled.div`
 const Title = styled.h2`
   font-size: 2rem;
   color: #333;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
 `;
 
 const Input = styled.input`
@@ -150,9 +150,9 @@ const Login = () => {
   return (
     <Container>
       <LoginForm>
-        <Title>Login</Title>
+        <Title>Student Login</Title>
 
-        <Switch
+        {/* <Switch
           style={{ margin: "0 0 20px 0" }}
           component={motion.button}
           whileTap={{ scale: 0.95 }}
@@ -172,7 +172,7 @@ const Login = () => {
           onClick={(event) => {
             setIsTeacher(!isTeacher);
           }}
-        />
+        /> */}
         <Input
           type="email"
           placeholder="Email"
